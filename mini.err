@@ -1,0 +1,352 @@
+/home/hqin/sobol_b22_0/Minimization.py:44: RuntimeWarning: divide by zero encountered in double_scalars
+  Z02 = η/(1-λ)
+/home/hqin/sobol_b22_0/Minimization.py:45: RuntimeWarning: divide by zero encountered in double_scalars
+  Σz02 = b21**2/(1-λ**2)
+/home/hqin/sobol_b22_0/Minimization.py:76: RuntimeWarning: invalid value encountered in matmul
+  KΣt = (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T+F@F.T)
+/home/hqin/sobol_b22_0/Minimization.py:77: RuntimeWarning: invalid value encountered in matmul
+  state_μ[:,[t+1]] = A@μt + KΣt@(obs[:,[t+1]] - D@μt)
+/home/hqin/sobol_b22_0/Minimization.py:78: RuntimeWarning: invalid value encountered in matmul
+  state_Σ[:,:,t+1] = A@Σt@A.T + B@B.T - (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T + F@F.T)@(D@Σt@A.T+F@B.T)
+/software/python-anaconda-2020.02-el7-x86_64/lib/python3.7/site-packages/numpy/linalg/linalg.py:2158: RuntimeWarning: invalid value encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/home/hqin/sobol_b22_0/Minimization.py:81: RuntimeWarning: invalid value encountered in log
+  ll += (-0.5*obs_series.shape[0]*np.log(2*np.pi) - 0.5*np.log(np.linalg.det(Ω)) - 0.5*(obs[:,[t+1]] - D@μt).T@np.linalg.inv(Ω)@(obs[:,[t+1]] - D@μt))
+/home/hqin/sobol_b22_0/Minimization.py:44: RuntimeWarning: divide by zero encountered in double_scalars
+  Z02 = η/(1-λ)
+/home/hqin/sobol_b22_0/Minimization.py:45: RuntimeWarning: divide by zero encountered in double_scalars
+  Σz02 = b21**2/(1-λ**2)
+/home/hqin/sobol_b22_0/Minimization.py:76: RuntimeWarning: invalid value encountered in matmul
+  KΣt = (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T+F@F.T)
+/home/hqin/sobol_b22_0/Minimization.py:77: RuntimeWarning: invalid value encountered in matmul
+  state_μ[:,[t+1]] = A@μt + KΣt@(obs[:,[t+1]] - D@μt)
+/home/hqin/sobol_b22_0/Minimization.py:78: RuntimeWarning: invalid value encountered in matmul
+  state_Σ[:,:,t+1] = A@Σt@A.T + B@B.T - (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T + F@F.T)@(D@Σt@A.T+F@B.T)
+/software/python-anaconda-2020.02-el7-x86_64/lib/python3.7/site-packages/numpy/linalg/linalg.py:2158: RuntimeWarning: invalid value encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/home/hqin/sobol_b22_0/Minimization.py:81: RuntimeWarning: invalid value encountered in log
+  ll += (-0.5*obs_series.shape[0]*np.log(2*np.pi) - 0.5*np.log(np.linalg.det(Ω)) - 0.5*(obs[:,[t+1]] - D@μt).T@np.linalg.inv(Ω)@(obs[:,[t+1]] - D@μt))
+/home/hqin/sobol_b22_0/Minimization.py:44: RuntimeWarning: divide by zero encountered in double_scalars
+  Z02 = η/(1-λ)
+/home/hqin/sobol_b22_0/Minimization.py:45: RuntimeWarning: divide by zero encountered in double_scalars
+  Σz02 = b21**2/(1-λ**2)
+/home/hqin/sobol_b22_0/Minimization.py:76: RuntimeWarning: invalid value encountered in matmul
+  KΣt = (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T+F@F.T)
+/home/hqin/sobol_b22_0/Minimization.py:77: RuntimeWarning: invalid value encountered in matmul
+  state_μ[:,[t+1]] = A@μt + KΣt@(obs[:,[t+1]] - D@μt)
+/home/hqin/sobol_b22_0/Minimization.py:78: RuntimeWarning: invalid value encountered in matmul
+  state_Σ[:,:,t+1] = A@Σt@A.T + B@B.T - (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T + F@F.T)@(D@Σt@A.T+F@B.T)
+/software/python-anaconda-2020.02-el7-x86_64/lib/python3.7/site-packages/numpy/linalg/linalg.py:2158: RuntimeWarning: invalid value encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/home/hqin/sobol_b22_0/Minimization.py:81: RuntimeWarning: invalid value encountered in log
+  ll += (-0.5*obs_series.shape[0]*np.log(2*np.pi) - 0.5*np.log(np.linalg.det(Ω)) - 0.5*(obs[:,[t+1]] - D@μt).T@np.linalg.inv(Ω)@(obs[:,[t+1]] - D@μt))
+/home/hqin/sobol_b22_0/Minimization.py:44: RuntimeWarning: divide by zero encountered in double_scalars
+  Z02 = η/(1-λ)
+/home/hqin/sobol_b22_0/Minimization.py:45: RuntimeWarning: divide by zero encountered in double_scalars
+  Σz02 = b21**2/(1-λ**2)
+/home/hqin/sobol_b22_0/Minimization.py:76: RuntimeWarning: invalid value encountered in matmul
+  KΣt = (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T+F@F.T)
+/home/hqin/sobol_b22_0/Minimization.py:77: RuntimeWarning: invalid value encountered in matmul
+  state_μ[:,[t+1]] = A@μt + KΣt@(obs[:,[t+1]] - D@μt)
+/home/hqin/sobol_b22_0/Minimization.py:78: RuntimeWarning: invalid value encountered in matmul
+  state_Σ[:,:,t+1] = A@Σt@A.T + B@B.T - (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T + F@F.T)@(D@Σt@A.T+F@B.T)
+/software/python-anaconda-2020.02-el7-x86_64/lib/python3.7/site-packages/numpy/linalg/linalg.py:2158: RuntimeWarning: invalid value encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/home/hqin/sobol_b22_0/Minimization.py:81: RuntimeWarning: invalid value encountered in log
+  ll += (-0.5*obs_series.shape[0]*np.log(2*np.pi) - 0.5*np.log(np.linalg.det(Ω)) - 0.5*(obs[:,[t+1]] - D@μt).T@np.linalg.inv(Ω)@(obs[:,[t+1]] - D@μt))
+/home/hqin/sobol_b22_0/Minimization.py:44: RuntimeWarning: divide by zero encountered in double_scalars
+  Z02 = η/(1-λ)
+/home/hqin/sobol_b22_0/Minimization.py:45: RuntimeWarning: divide by zero encountered in double_scalars
+  Σz02 = b21**2/(1-λ**2)
+/home/hqin/sobol_b22_0/Minimization.py:76: RuntimeWarning: invalid value encountered in matmul
+  KΣt = (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T+F@F.T)
+/home/hqin/sobol_b22_0/Minimization.py:77: RuntimeWarning: invalid value encountered in matmul
+  state_μ[:,[t+1]] = A@μt + KΣt@(obs[:,[t+1]] - D@μt)
+/home/hqin/sobol_b22_0/Minimization.py:78: RuntimeWarning: invalid value encountered in matmul
+  state_Σ[:,:,t+1] = A@Σt@A.T + B@B.T - (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T + F@F.T)@(D@Σt@A.T+F@B.T)
+/software/python-anaconda-2020.02-el7-x86_64/lib/python3.7/site-packages/numpy/linalg/linalg.py:2158: RuntimeWarning: invalid value encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/home/hqin/sobol_b22_0/Minimization.py:81: RuntimeWarning: invalid value encountered in log
+  ll += (-0.5*obs_series.shape[0]*np.log(2*np.pi) - 0.5*np.log(np.linalg.det(Ω)) - 0.5*(obs[:,[t+1]] - D@μt).T@np.linalg.inv(Ω)@(obs[:,[t+1]] - D@μt))
+/home/hqin/sobol_b22_0/Minimization.py:44: RuntimeWarning: divide by zero encountered in double_scalars
+  Z02 = η/(1-λ)
+/home/hqin/sobol_b22_0/Minimization.py:45: RuntimeWarning: divide by zero encountered in double_scalars
+  Σz02 = b21**2/(1-λ**2)
+/home/hqin/sobol_b22_0/Minimization.py:76: RuntimeWarning: invalid value encountered in matmul
+  KΣt = (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T+F@F.T)
+/home/hqin/sobol_b22_0/Minimization.py:77: RuntimeWarning: invalid value encountered in matmul
+  state_μ[:,[t+1]] = A@μt + KΣt@(obs[:,[t+1]] - D@μt)
+/home/hqin/sobol_b22_0/Minimization.py:78: RuntimeWarning: invalid value encountered in matmul
+  state_Σ[:,:,t+1] = A@Σt@A.T + B@B.T - (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T + F@F.T)@(D@Σt@A.T+F@B.T)
+/software/python-anaconda-2020.02-el7-x86_64/lib/python3.7/site-packages/numpy/linalg/linalg.py:2158: RuntimeWarning: invalid value encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/home/hqin/sobol_b22_0/Minimization.py:81: RuntimeWarning: invalid value encountered in log
+  ll += (-0.5*obs_series.shape[0]*np.log(2*np.pi) - 0.5*np.log(np.linalg.det(Ω)) - 0.5*(obs[:,[t+1]] - D@μt).T@np.linalg.inv(Ω)@(obs[:,[t+1]] - D@μt))
+/home/hqin/sobol_b22_0/Minimization.py:81: RuntimeWarning: invalid value encountered in log
+  ll += (-0.5*obs_series.shape[0]*np.log(2*np.pi) - 0.5*np.log(np.linalg.det(Ω)) - 0.5*(obs[:,[t+1]] - D@μt).T@np.linalg.inv(Ω)@(obs[:,[t+1]] - D@μt))
+/home/hqin/sobol_b22_0/Minimization.py:44: RuntimeWarning: divide by zero encountered in double_scalars
+  Z02 = η/(1-λ)
+/home/hqin/sobol_b22_0/Minimization.py:45: RuntimeWarning: divide by zero encountered in double_scalars
+  Σz02 = b21**2/(1-λ**2)
+/home/hqin/sobol_b22_0/Minimization.py:76: RuntimeWarning: invalid value encountered in matmul
+  KΣt = (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T+F@F.T)
+/home/hqin/sobol_b22_0/Minimization.py:77: RuntimeWarning: invalid value encountered in matmul
+  state_μ[:,[t+1]] = A@μt + KΣt@(obs[:,[t+1]] - D@μt)
+/home/hqin/sobol_b22_0/Minimization.py:78: RuntimeWarning: invalid value encountered in matmul
+  state_Σ[:,:,t+1] = A@Σt@A.T + B@B.T - (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T + F@F.T)@(D@Σt@A.T+F@B.T)
+/software/python-anaconda-2020.02-el7-x86_64/lib/python3.7/site-packages/numpy/linalg/linalg.py:2158: RuntimeWarning: invalid value encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/home/hqin/sobol_b22_0/Minimization.py:44: RuntimeWarning: divide by zero encountered in double_scalars
+  Z02 = η/(1-λ)
+/home/hqin/sobol_b22_0/Minimization.py:45: RuntimeWarning: divide by zero encountered in double_scalars
+  Σz02 = b21**2/(1-λ**2)
+/home/hqin/sobol_b22_0/Minimization.py:76: RuntimeWarning: invalid value encountered in matmul
+  KΣt = (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T+F@F.T)
+/home/hqin/sobol_b22_0/Minimization.py:77: RuntimeWarning: invalid value encountered in matmul
+  state_μ[:,[t+1]] = A@μt + KΣt@(obs[:,[t+1]] - D@μt)
+/home/hqin/sobol_b22_0/Minimization.py:78: RuntimeWarning: invalid value encountered in matmul
+  state_Σ[:,:,t+1] = A@Σt@A.T + B@B.T - (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T + F@F.T)@(D@Σt@A.T+F@B.T)
+/software/python-anaconda-2020.02-el7-x86_64/lib/python3.7/site-packages/numpy/linalg/linalg.py:2158: RuntimeWarning: invalid value encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/home/hqin/sobol_b22_0/Minimization.py:81: RuntimeWarning: invalid value encountered in log
+  ll += (-0.5*obs_series.shape[0]*np.log(2*np.pi) - 0.5*np.log(np.linalg.det(Ω)) - 0.5*(obs[:,[t+1]] - D@μt).T@np.linalg.inv(Ω)@(obs[:,[t+1]] - D@μt))
+/home/hqin/sobol_b22_0/Minimization.py:81: RuntimeWarning: invalid value encountered in log
+  ll += (-0.5*obs_series.shape[0]*np.log(2*np.pi) - 0.5*np.log(np.linalg.det(Ω)) - 0.5*(obs[:,[t+1]] - D@μt).T@np.linalg.inv(Ω)@(obs[:,[t+1]] - D@μt))
+/home/hqin/sobol_b22_0/Minimization.py:44: RuntimeWarning: divide by zero encountered in double_scalars
+  Z02 = η/(1-λ)
+/home/hqin/sobol_b22_0/Minimization.py:45: RuntimeWarning: divide by zero encountered in double_scalars
+  Σz02 = b21**2/(1-λ**2)
+/home/hqin/sobol_b22_0/Minimization.py:76: RuntimeWarning: invalid value encountered in matmul
+  KΣt = (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T+F@F.T)
+/home/hqin/sobol_b22_0/Minimization.py:77: RuntimeWarning: invalid value encountered in matmul
+  state_μ[:,[t+1]] = A@μt + KΣt@(obs[:,[t+1]] - D@μt)
+/home/hqin/sobol_b22_0/Minimization.py:78: RuntimeWarning: invalid value encountered in matmul
+  state_Σ[:,:,t+1] = A@Σt@A.T + B@B.T - (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T + F@F.T)@(D@Σt@A.T+F@B.T)
+/software/python-anaconda-2020.02-el7-x86_64/lib/python3.7/site-packages/numpy/linalg/linalg.py:2158: RuntimeWarning: invalid value encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/home/hqin/sobol_b22_0/Minimization.py:44: RuntimeWarning: divide by zero encountered in double_scalars
+  Z02 = η/(1-λ)
+/home/hqin/sobol_b22_0/Minimization.py:45: RuntimeWarning: divide by zero encountered in double_scalars
+  Σz02 = b21**2/(1-λ**2)
+/home/hqin/sobol_b22_0/Minimization.py:76: RuntimeWarning: invalid value encountered in matmul
+  KΣt = (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T+F@F.T)
+/home/hqin/sobol_b22_0/Minimization.py:77: RuntimeWarning: invalid value encountered in matmul
+  state_μ[:,[t+1]] = A@μt + KΣt@(obs[:,[t+1]] - D@μt)
+/home/hqin/sobol_b22_0/Minimization.py:78: RuntimeWarning: invalid value encountered in matmul
+  state_Σ[:,:,t+1] = A@Σt@A.T + B@B.T - (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T + F@F.T)@(D@Σt@A.T+F@B.T)
+/software/python-anaconda-2020.02-el7-x86_64/lib/python3.7/site-packages/numpy/linalg/linalg.py:2158: RuntimeWarning: invalid value encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/home/hqin/sobol_b22_0/Minimization.py:81: RuntimeWarning: invalid value encountered in log
+  ll += (-0.5*obs_series.shape[0]*np.log(2*np.pi) - 0.5*np.log(np.linalg.det(Ω)) - 0.5*(obs[:,[t+1]] - D@μt).T@np.linalg.inv(Ω)@(obs[:,[t+1]] - D@μt))
+/home/hqin/sobol_b22_0/Minimization.py:44: RuntimeWarning: divide by zero encountered in double_scalars
+  Z02 = η/(1-λ)
+/home/hqin/sobol_b22_0/Minimization.py:45: RuntimeWarning: divide by zero encountered in double_scalars
+  Σz02 = b21**2/(1-λ**2)
+/home/hqin/sobol_b22_0/Minimization.py:76: RuntimeWarning: invalid value encountered in matmul
+  KΣt = (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T+F@F.T)
+/home/hqin/sobol_b22_0/Minimization.py:77: RuntimeWarning: invalid value encountered in matmul
+  state_μ[:,[t+1]] = A@μt + KΣt@(obs[:,[t+1]] - D@μt)
+/home/hqin/sobol_b22_0/Minimization.py:78: RuntimeWarning: invalid value encountered in matmul
+  state_Σ[:,:,t+1] = A@Σt@A.T + B@B.T - (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T + F@F.T)@(D@Σt@A.T+F@B.T)
+/software/python-anaconda-2020.02-el7-x86_64/lib/python3.7/site-packages/numpy/linalg/linalg.py:2158: RuntimeWarning: invalid value encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/home/hqin/sobol_b22_0/Minimization.py:81: RuntimeWarning: invalid value encountered in log
+  ll += (-0.5*obs_series.shape[0]*np.log(2*np.pi) - 0.5*np.log(np.linalg.det(Ω)) - 0.5*(obs[:,[t+1]] - D@μt).T@np.linalg.inv(Ω)@(obs[:,[t+1]] - D@μt))
+/home/hqin/sobol_b22_0/Minimization.py:44: RuntimeWarning: divide by zero encountered in double_scalars
+  Z02 = η/(1-λ)
+/home/hqin/sobol_b22_0/Minimization.py:45: RuntimeWarning: divide by zero encountered in double_scalars
+  Σz02 = b21**2/(1-λ**2)
+/home/hqin/sobol_b22_0/Minimization.py:76: RuntimeWarning: invalid value encountered in matmul
+  KΣt = (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T+F@F.T)
+/home/hqin/sobol_b22_0/Minimization.py:77: RuntimeWarning: invalid value encountered in matmul
+  state_μ[:,[t+1]] = A@μt + KΣt@(obs[:,[t+1]] - D@μt)
+/home/hqin/sobol_b22_0/Minimization.py:78: RuntimeWarning: invalid value encountered in matmul
+  state_Σ[:,:,t+1] = A@Σt@A.T + B@B.T - (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T + F@F.T)@(D@Σt@A.T+F@B.T)
+/software/python-anaconda-2020.02-el7-x86_64/lib/python3.7/site-packages/numpy/linalg/linalg.py:2158: RuntimeWarning: invalid value encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/home/hqin/sobol_b22_0/Minimization.py:81: RuntimeWarning: invalid value encountered in log
+  ll += (-0.5*obs_series.shape[0]*np.log(2*np.pi) - 0.5*np.log(np.linalg.det(Ω)) - 0.5*(obs[:,[t+1]] - D@μt).T@np.linalg.inv(Ω)@(obs[:,[t+1]] - D@μt))
+/home/hqin/sobol_b22_0/Minimization.py:81: RuntimeWarning: invalid value encountered in log
+  ll += (-0.5*obs_series.shape[0]*np.log(2*np.pi) - 0.5*np.log(np.linalg.det(Ω)) - 0.5*(obs[:,[t+1]] - D@μt).T@np.linalg.inv(Ω)@(obs[:,[t+1]] - D@μt))
+/home/hqin/sobol_b22_0/Minimization.py:44: RuntimeWarning: divide by zero encountered in double_scalars
+  Z02 = η/(1-λ)
+/home/hqin/sobol_b22_0/Minimization.py:45: RuntimeWarning: divide by zero encountered in double_scalars
+  Σz02 = b21**2/(1-λ**2)
+/home/hqin/sobol_b22_0/Minimization.py:76: RuntimeWarning: invalid value encountered in matmul
+  KΣt = (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T+F@F.T)
+/home/hqin/sobol_b22_0/Minimization.py:77: RuntimeWarning: invalid value encountered in matmul
+  state_μ[:,[t+1]] = A@μt + KΣt@(obs[:,[t+1]] - D@μt)
+/home/hqin/sobol_b22_0/Minimization.py:78: RuntimeWarning: invalid value encountered in matmul
+  state_Σ[:,:,t+1] = A@Σt@A.T + B@B.T - (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T + F@F.T)@(D@Σt@A.T+F@B.T)
+/software/python-anaconda-2020.02-el7-x86_64/lib/python3.7/site-packages/numpy/linalg/linalg.py:2158: RuntimeWarning: invalid value encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/home/hqin/sobol_b22_0/Minimization.py:81: RuntimeWarning: invalid value encountered in log
+  ll += (-0.5*obs_series.shape[0]*np.log(2*np.pi) - 0.5*np.log(np.linalg.det(Ω)) - 0.5*(obs[:,[t+1]] - D@μt).T@np.linalg.inv(Ω)@(obs[:,[t+1]] - D@μt))
+/home/hqin/sobol_b22_0/Minimization.py:44: RuntimeWarning: divide by zero encountered in double_scalars
+  Z02 = η/(1-λ)
+/home/hqin/sobol_b22_0/Minimization.py:45: RuntimeWarning: divide by zero encountered in double_scalars
+  Σz02 = b21**2/(1-λ**2)
+/home/hqin/sobol_b22_0/Minimization.py:76: RuntimeWarning: invalid value encountered in matmul
+  KΣt = (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T+F@F.T)
+/home/hqin/sobol_b22_0/Minimization.py:77: RuntimeWarning: invalid value encountered in matmul
+  state_μ[:,[t+1]] = A@μt + KΣt@(obs[:,[t+1]] - D@μt)
+/home/hqin/sobol_b22_0/Minimization.py:78: RuntimeWarning: invalid value encountered in matmul
+  state_Σ[:,:,t+1] = A@Σt@A.T + B@B.T - (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T + F@F.T)@(D@Σt@A.T+F@B.T)
+/software/python-anaconda-2020.02-el7-x86_64/lib/python3.7/site-packages/numpy/linalg/linalg.py:2158: RuntimeWarning: invalid value encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/home/hqin/sobol_b22_0/Minimization.py:44: RuntimeWarning: divide by zero encountered in double_scalars
+  Z02 = η/(1-λ)
+/home/hqin/sobol_b22_0/Minimization.py:45: RuntimeWarning: divide by zero encountered in double_scalars
+  Σz02 = b21**2/(1-λ**2)
+/home/hqin/sobol_b22_0/Minimization.py:76: RuntimeWarning: invalid value encountered in matmul
+  KΣt = (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T+F@F.T)
+/home/hqin/sobol_b22_0/Minimization.py:77: RuntimeWarning: invalid value encountered in matmul
+  state_μ[:,[t+1]] = A@μt + KΣt@(obs[:,[t+1]] - D@μt)
+/home/hqin/sobol_b22_0/Minimization.py:78: RuntimeWarning: invalid value encountered in matmul
+  state_Σ[:,:,t+1] = A@Σt@A.T + B@B.T - (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T + F@F.T)@(D@Σt@A.T+F@B.T)
+/software/python-anaconda-2020.02-el7-x86_64/lib/python3.7/site-packages/numpy/linalg/linalg.py:2158: RuntimeWarning: invalid value encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/home/hqin/sobol_b22_0/Minimization.py:81: RuntimeWarning: invalid value encountered in log
+  ll += (-0.5*obs_series.shape[0]*np.log(2*np.pi) - 0.5*np.log(np.linalg.det(Ω)) - 0.5*(obs[:,[t+1]] - D@μt).T@np.linalg.inv(Ω)@(obs[:,[t+1]] - D@μt))
+/home/hqin/sobol_b22_0/Minimization.py:81: RuntimeWarning: invalid value encountered in log
+  ll += (-0.5*obs_series.shape[0]*np.log(2*np.pi) - 0.5*np.log(np.linalg.det(Ω)) - 0.5*(obs[:,[t+1]] - D@μt).T@np.linalg.inv(Ω)@(obs[:,[t+1]] - D@μt))
+/home/hqin/sobol_b22_0/Minimization.py:44: RuntimeWarning: divide by zero encountered in double_scalars
+  Z02 = η/(1-λ)
+/home/hqin/sobol_b22_0/Minimization.py:45: RuntimeWarning: divide by zero encountered in double_scalars
+  Σz02 = b21**2/(1-λ**2)
+/home/hqin/sobol_b22_0/Minimization.py:76: RuntimeWarning: invalid value encountered in matmul
+  KΣt = (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T+F@F.T)
+/home/hqin/sobol_b22_0/Minimization.py:77: RuntimeWarning: invalid value encountered in matmul
+  state_μ[:,[t+1]] = A@μt + KΣt@(obs[:,[t+1]] - D@μt)
+/home/hqin/sobol_b22_0/Minimization.py:78: RuntimeWarning: invalid value encountered in matmul
+  state_Σ[:,:,t+1] = A@Σt@A.T + B@B.T - (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T + F@F.T)@(D@Σt@A.T+F@B.T)
+/software/python-anaconda-2020.02-el7-x86_64/lib/python3.7/site-packages/numpy/linalg/linalg.py:2158: RuntimeWarning: invalid value encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/home/hqin/sobol_b22_0/Minimization.py:81: RuntimeWarning: invalid value encountered in log
+  ll += (-0.5*obs_series.shape[0]*np.log(2*np.pi) - 0.5*np.log(np.linalg.det(Ω)) - 0.5*(obs[:,[t+1]] - D@μt).T@np.linalg.inv(Ω)@(obs[:,[t+1]] - D@μt))
+/home/hqin/sobol_b22_0/Minimization.py:44: RuntimeWarning: divide by zero encountered in double_scalars
+  Z02 = η/(1-λ)
+/home/hqin/sobol_b22_0/Minimization.py:45: RuntimeWarning: divide by zero encountered in double_scalars
+  Σz02 = b21**2/(1-λ**2)
+/home/hqin/sobol_b22_0/Minimization.py:76: RuntimeWarning: invalid value encountered in matmul
+  KΣt = (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T+F@F.T)
+/home/hqin/sobol_b22_0/Minimization.py:77: RuntimeWarning: invalid value encountered in matmul
+  state_μ[:,[t+1]] = A@μt + KΣt@(obs[:,[t+1]] - D@μt)
+/home/hqin/sobol_b22_0/Minimization.py:78: RuntimeWarning: invalid value encountered in matmul
+  state_Σ[:,:,t+1] = A@Σt@A.T + B@B.T - (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T + F@F.T)@(D@Σt@A.T+F@B.T)
+/software/python-anaconda-2020.02-el7-x86_64/lib/python3.7/site-packages/numpy/linalg/linalg.py:2158: RuntimeWarning: invalid value encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/home/hqin/sobol_b22_0/Minimization.py:81: RuntimeWarning: invalid value encountered in log
+  ll += (-0.5*obs_series.shape[0]*np.log(2*np.pi) - 0.5*np.log(np.linalg.det(Ω)) - 0.5*(obs[:,[t+1]] - D@μt).T@np.linalg.inv(Ω)@(obs[:,[t+1]] - D@μt))
+/home/hqin/sobol_b22_0/Minimization.py:44: RuntimeWarning: divide by zero encountered in double_scalars
+  Z02 = η/(1-λ)
+/home/hqin/sobol_b22_0/Minimization.py:45: RuntimeWarning: divide by zero encountered in double_scalars
+  Σz02 = b21**2/(1-λ**2)
+/home/hqin/sobol_b22_0/Minimization.py:76: RuntimeWarning: invalid value encountered in matmul
+  KΣt = (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T+F@F.T)
+/home/hqin/sobol_b22_0/Minimization.py:77: RuntimeWarning: invalid value encountered in matmul
+  state_μ[:,[t+1]] = A@μt + KΣt@(obs[:,[t+1]] - D@μt)
+/home/hqin/sobol_b22_0/Minimization.py:78: RuntimeWarning: invalid value encountered in matmul
+  state_Σ[:,:,t+1] = A@Σt@A.T + B@B.T - (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T + F@F.T)@(D@Σt@A.T+F@B.T)
+/software/python-anaconda-2020.02-el7-x86_64/lib/python3.7/site-packages/numpy/linalg/linalg.py:2158: RuntimeWarning: invalid value encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/home/hqin/sobol_b22_0/Minimization.py:81: RuntimeWarning: invalid value encountered in log
+  ll += (-0.5*obs_series.shape[0]*np.log(2*np.pi) - 0.5*np.log(np.linalg.det(Ω)) - 0.5*(obs[:,[t+1]] - D@μt).T@np.linalg.inv(Ω)@(obs[:,[t+1]] - D@μt))
+/home/hqin/sobol_b22_0/Minimization.py:44: RuntimeWarning: divide by zero encountered in double_scalars
+  Z02 = η/(1-λ)
+/home/hqin/sobol_b22_0/Minimization.py:45: RuntimeWarning: divide by zero encountered in double_scalars
+  Σz02 = b21**2/(1-λ**2)
+/home/hqin/sobol_b22_0/Minimization.py:76: RuntimeWarning: invalid value encountered in matmul
+  KΣt = (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T+F@F.T)
+/home/hqin/sobol_b22_0/Minimization.py:77: RuntimeWarning: invalid value encountered in matmul
+  state_μ[:,[t+1]] = A@μt + KΣt@(obs[:,[t+1]] - D@μt)
+/home/hqin/sobol_b22_0/Minimization.py:78: RuntimeWarning: invalid value encountered in matmul
+  state_Σ[:,:,t+1] = A@Σt@A.T + B@B.T - (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T + F@F.T)@(D@Σt@A.T+F@B.T)
+/software/python-anaconda-2020.02-el7-x86_64/lib/python3.7/site-packages/numpy/linalg/linalg.py:2158: RuntimeWarning: invalid value encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/home/hqin/sobol_b22_0/Minimization.py:44: RuntimeWarning: divide by zero encountered in double_scalars
+  Z02 = η/(1-λ)
+/home/hqin/sobol_b22_0/Minimization.py:45: RuntimeWarning: divide by zero encountered in double_scalars
+  Σz02 = b21**2/(1-λ**2)
+/home/hqin/sobol_b22_0/Minimization.py:76: RuntimeWarning: invalid value encountered in matmul
+  KΣt = (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T+F@F.T)
+/home/hqin/sobol_b22_0/Minimization.py:77: RuntimeWarning: invalid value encountered in matmul
+  state_μ[:,[t+1]] = A@μt + KΣt@(obs[:,[t+1]] - D@μt)
+/home/hqin/sobol_b22_0/Minimization.py:78: RuntimeWarning: invalid value encountered in matmul
+  state_Σ[:,:,t+1] = A@Σt@A.T + B@B.T - (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T + F@F.T)@(D@Σt@A.T+F@B.T)
+/software/python-anaconda-2020.02-el7-x86_64/lib/python3.7/site-packages/numpy/linalg/linalg.py:2158: RuntimeWarning: invalid value encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/home/hqin/sobol_b22_0/Minimization.py:81: RuntimeWarning: invalid value encountered in log
+  ll += (-0.5*obs_series.shape[0]*np.log(2*np.pi) - 0.5*np.log(np.linalg.det(Ω)) - 0.5*(obs[:,[t+1]] - D@μt).T@np.linalg.inv(Ω)@(obs[:,[t+1]] - D@μt))
+/home/hqin/sobol_b22_0/Minimization.py:81: RuntimeWarning: invalid value encountered in log
+  ll += (-0.5*obs_series.shape[0]*np.log(2*np.pi) - 0.5*np.log(np.linalg.det(Ω)) - 0.5*(obs[:,[t+1]] - D@μt).T@np.linalg.inv(Ω)@(obs[:,[t+1]] - D@μt))
+/home/hqin/sobol_b22_0/Minimization.py:44: RuntimeWarning: divide by zero encountered in double_scalars
+  Z02 = η/(1-λ)
+/home/hqin/sobol_b22_0/Minimization.py:45: RuntimeWarning: divide by zero encountered in double_scalars
+  Σz02 = b21**2/(1-λ**2)
+/home/hqin/sobol_b22_0/Minimization.py:76: RuntimeWarning: invalid value encountered in matmul
+  KΣt = (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T+F@F.T)
+/home/hqin/sobol_b22_0/Minimization.py:77: RuntimeWarning: invalid value encountered in matmul
+  state_μ[:,[t+1]] = A@μt + KΣt@(obs[:,[t+1]] - D@μt)
+/home/hqin/sobol_b22_0/Minimization.py:78: RuntimeWarning: invalid value encountered in matmul
+  state_Σ[:,:,t+1] = A@Σt@A.T + B@B.T - (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T + F@F.T)@(D@Σt@A.T+F@B.T)
+/software/python-anaconda-2020.02-el7-x86_64/lib/python3.7/site-packages/numpy/linalg/linalg.py:2158: RuntimeWarning: invalid value encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/home/hqin/sobol_b22_0/Minimization.py:81: RuntimeWarning: invalid value encountered in log
+  ll += (-0.5*obs_series.shape[0]*np.log(2*np.pi) - 0.5*np.log(np.linalg.det(Ω)) - 0.5*(obs[:,[t+1]] - D@μt).T@np.linalg.inv(Ω)@(obs[:,[t+1]] - D@μt))
+/home/hqin/sobol_b22_0/Minimization.py:44: RuntimeWarning: divide by zero encountered in double_scalars
+  Z02 = η/(1-λ)
+/home/hqin/sobol_b22_0/Minimization.py:45: RuntimeWarning: divide by zero encountered in double_scalars
+  Σz02 = b21**2/(1-λ**2)
+/home/hqin/sobol_b22_0/Minimization.py:76: RuntimeWarning: invalid value encountered in matmul
+  KΣt = (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T+F@F.T)
+/home/hqin/sobol_b22_0/Minimization.py:77: RuntimeWarning: invalid value encountered in matmul
+  state_μ[:,[t+1]] = A@μt + KΣt@(obs[:,[t+1]] - D@μt)
+/home/hqin/sobol_b22_0/Minimization.py:78: RuntimeWarning: invalid value encountered in matmul
+  state_Σ[:,:,t+1] = A@Σt@A.T + B@B.T - (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T + F@F.T)@(D@Σt@A.T+F@B.T)
+/software/python-anaconda-2020.02-el7-x86_64/lib/python3.7/site-packages/numpy/linalg/linalg.py:2158: RuntimeWarning: invalid value encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/home/hqin/sobol_b22_0/Minimization.py:81: RuntimeWarning: invalid value encountered in log
+  ll += (-0.5*obs_series.shape[0]*np.log(2*np.pi) - 0.5*np.log(np.linalg.det(Ω)) - 0.5*(obs[:,[t+1]] - D@μt).T@np.linalg.inv(Ω)@(obs[:,[t+1]] - D@μt))
+/home/hqin/sobol_b22_0/Minimization.py:81: RuntimeWarning: invalid value encountered in log
+  ll += (-0.5*obs_series.shape[0]*np.log(2*np.pi) - 0.5*np.log(np.linalg.det(Ω)) - 0.5*(obs[:,[t+1]] - D@μt).T@np.linalg.inv(Ω)@(obs[:,[t+1]] - D@μt))
+/home/hqin/sobol_b22_0/Minimization.py:44: RuntimeWarning: divide by zero encountered in double_scalars
+  Z02 = η/(1-λ)
+/home/hqin/sobol_b22_0/Minimization.py:45: RuntimeWarning: divide by zero encountered in double_scalars
+  Σz02 = b21**2/(1-λ**2)
+/home/hqin/sobol_b22_0/Minimization.py:76: RuntimeWarning: invalid value encountered in matmul
+  KΣt = (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T+F@F.T)
+/home/hqin/sobol_b22_0/Minimization.py:77: RuntimeWarning: invalid value encountered in matmul
+  state_μ[:,[t+1]] = A@μt + KΣt@(obs[:,[t+1]] - D@μt)
+/home/hqin/sobol_b22_0/Minimization.py:78: RuntimeWarning: invalid value encountered in matmul
+  state_Σ[:,:,t+1] = A@Σt@A.T + B@B.T - (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T + F@F.T)@(D@Σt@A.T+F@B.T)
+/software/python-anaconda-2020.02-el7-x86_64/lib/python3.7/site-packages/numpy/linalg/linalg.py:2158: RuntimeWarning: invalid value encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/home/hqin/sobol_b22_0/Minimization.py:81: RuntimeWarning: invalid value encountered in log
+  ll += (-0.5*obs_series.shape[0]*np.log(2*np.pi) - 0.5*np.log(np.linalg.det(Ω)) - 0.5*(obs[:,[t+1]] - D@μt).T@np.linalg.inv(Ω)@(obs[:,[t+1]] - D@μt))
+/home/hqin/sobol_b22_0/Minimization.py:44: RuntimeWarning: divide by zero encountered in double_scalars
+  Z02 = η/(1-λ)
+/home/hqin/sobol_b22_0/Minimization.py:45: RuntimeWarning: divide by zero encountered in double_scalars
+  Σz02 = b21**2/(1-λ**2)
+/home/hqin/sobol_b22_0/Minimization.py:76: RuntimeWarning: invalid value encountered in matmul
+  KΣt = (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T+F@F.T)
+/home/hqin/sobol_b22_0/Minimization.py:77: RuntimeWarning: invalid value encountered in matmul
+  state_μ[:,[t+1]] = A@μt + KΣt@(obs[:,[t+1]] - D@μt)
+/home/hqin/sobol_b22_0/Minimization.py:78: RuntimeWarning: invalid value encountered in matmul
+  state_Σ[:,:,t+1] = A@Σt@A.T + B@B.T - (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T + F@F.T)@(D@Σt@A.T+F@B.T)
+/software/python-anaconda-2020.02-el7-x86_64/lib/python3.7/site-packages/numpy/linalg/linalg.py:2158: RuntimeWarning: invalid value encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/home/hqin/sobol_b22_0/Minimization.py:81: RuntimeWarning: invalid value encountered in log
+  ll += (-0.5*obs_series.shape[0]*np.log(2*np.pi) - 0.5*np.log(np.linalg.det(Ω)) - 0.5*(obs[:,[t+1]] - D@μt).T@np.linalg.inv(Ω)@(obs[:,[t+1]] - D@μt))
+/home/hqin/sobol_b22_0/Minimization.py:44: RuntimeWarning: divide by zero encountered in double_scalars
+  Z02 = η/(1-λ)
+/home/hqin/sobol_b22_0/Minimization.py:45: RuntimeWarning: divide by zero encountered in double_scalars
+  Σz02 = b21**2/(1-λ**2)
+/home/hqin/sobol_b22_0/Minimization.py:76: RuntimeWarning: invalid value encountered in matmul
+  KΣt = (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T+F@F.T)
+/home/hqin/sobol_b22_0/Minimization.py:77: RuntimeWarning: invalid value encountered in matmul
+  state_μ[:,[t+1]] = A@μt + KΣt@(obs[:,[t+1]] - D@μt)
+/home/hqin/sobol_b22_0/Minimization.py:78: RuntimeWarning: invalid value encountered in matmul
+  state_Σ[:,:,t+1] = A@Σt@A.T + B@B.T - (A@Σt@D.T + B@F.T)@np.linalg.inv(D@Σt@D.T + F@F.T)@(D@Σt@A.T+F@B.T)
+/software/python-anaconda-2020.02-el7-x86_64/lib/python3.7/site-packages/numpy/linalg/linalg.py:2158: RuntimeWarning: invalid value encountered in det
+  r = _umath_linalg.det(a, signature=signature)
