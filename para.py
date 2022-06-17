@@ -14,7 +14,7 @@ from concurrent.futures import ProcessPoolExecutor
 obs_series = pd.read_csv('data.csv', delimiter=',')
 obs_series = np.array(obs_series.iloc[:,1:]).T
 
-n_points = 1000
+n_points = 10000
 sobol_sequence = sobol.sample(dimension=22, n_points=n_points)
 sobol_sequence[:,1:] = sobol_sequence[:,1:]*2 -1
 start = np.array_split(sobol_sequence, n_points)
