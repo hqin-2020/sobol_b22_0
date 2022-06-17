@@ -6,6 +6,7 @@ import seaborn as sns
 import pickle
 import os
 import time
+import sobol
 np.set_printoptions(suppress = True)
 
 from Minimization import minimization
@@ -13,10 +14,10 @@ from concurrent.futures import ProcessPoolExecutor
 obs_series = pd.read_csv('data.csv', delimiter=',')
 obs_series = np.array(obs_series.iloc[:,1:]).T
 
-sampler = sp.stats.qmc.Sobol(d=22, scramble = False)
-sobol_sequence = sampler.random_base2(m = 10)
+n_points = 1000
+sobol_sequence = sobol.sample(dimension=22, n_points=n_points)
 sobol_sequence[:,1:] = sobol_sequence[:,1:]*2 -1
-start = np.array_split(sobol_sequence, sobol_sequence.shape[0])
+start = np.array_split(sobol_sequence, n_points)
 
 if __name__ == '__main__':
     with ProcessPoolExecutor() as pool:
