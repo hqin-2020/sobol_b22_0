@@ -5,8 +5,8 @@
 #SBATCH --error=mini.err
 #SBATCH --time=24:00:00
 #SBATCH --partition=broadwl
-#SBATCH --nodes=20
-#SBATCH --ntasks-per-node=28
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
 #SBATCH --mem-per-cpu=2000
 #SBATCH --constraint=fdr
 
