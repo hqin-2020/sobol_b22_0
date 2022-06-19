@@ -14,15 +14,18 @@ from concurrent.futures import ProcessPoolExecutor
 obs_series = pd.read_csv('data.csv', delimiter=',')
 obs_series = np.array(obs_series.iloc[:,1:]).T
 
-n_points = 80000
+n_points = 15
 sobol_sequence = sobol.sample(dimension=22, n_points=n_points)
 sobol_sequence[:,1:] = sobol_sequence[:,1:]*2 -1
 start = np.array_split(sobol_sequence, n_points)
 
+start_time = time.time()
 if __name__ == '__main__':
     with ProcessPoolExecutor() as pool:
         results = pool.map(minimization, start)
     results = [r for r in results]
 
+run_time = time.time() - start_time
+print(run_time)
 with open('data.pkl', 'wb') as f:
        pickle.dump(results, f)
