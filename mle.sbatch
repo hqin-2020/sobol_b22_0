@@ -6,7 +6,7 @@
 #SBATCH --time=00:30:00
 #SBATCH --partition=broadwl
 #SBATCH --nodes=2
-#SBATCH --ntasks-per-node=14
+#SBATCH --ntasks-per-node=4
 #SBATCH --mem-per-cpu=2000
 #SBATCH --constraint=fdr
 
